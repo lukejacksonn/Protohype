@@ -18,10 +18,10 @@
 
 [wrap] { flex-wrap: wrap; }
 
-[gr]   { flex-grow: 1; }
-[grn]  { flex-grow: 0; }
-[sh]   { flex-shrink: 1; }
-[shn]  { flex-shrink: 0; }
+[fg]   { flex-grow: 1; }
+[fgn]  { flex-grow: 0; }
+[fs]   { flex-shrink: 1; }
+[fsn]  { flex-shrink: 0; }
 
 /*
 -- Single Line Alignment
