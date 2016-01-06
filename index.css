@@ -1,0 +1,125 @@
+
+[vh] { min-height: 100vh; }
+[vw] { min-width: 100vw; }
+
+/*
+-- Containers
+*/
+
+[row] {
+  display: flex;
+  flex-direction: row;
+}
+
+[col] {
+  display: flex;
+  flex-direction: column;
+}
+
+[wrap] { flex-wrap: wrap; }
+
+[gr]   { flex-grow: 1; }
+[grn]  { flex-grow: 0; }
+[sh]   { flex-shrink: 1; }
+[shn]  { flex-shrink: 0; }
+
+/*
+-- Single Line Alignment
+*/
+
+[ais]  { align-items: stretch; }
+[aifs] { align-items: flex-start; }
+[aic]  { align-items: center; }
+[aife] { align-items: flex-end; }
+[aib]  { align-items: baseline; }
+
+/*
+-- Multi Line Alignment
+*/
+
+[acsb] { align-content: space-between; }
+[acfs] { align-content: flex-start; }
+[acc]  { align-content: center; }
+[acfe] { align-content: flex-end; }
+[acsa] { align-content: space-around; }
+
+/*
+-- Individual Item Alignment
+*/
+
+[ass]  { align-self: stretch; }
+[asfs] { align-self: flex-start; }
+[asc]  { align-self: center; }
+[asfe] { align-self: flex-end; }
+[asb]  { align-self: baseline; }
+
+/*
+-- Content Justification
+*/
+
+[jcsb] { justify-content: space-between; }
+[jcfs] { justify-content: flex-start; }
+[jcc]  { justify-content: center; }
+[jcfe] { justify-content: flex-end; }
+[jcsa] { justify-content: space-around; }
+
+/*
+-- Margins
+*/
+
+[m] { margin: 1rem; }
+
+[mt] { margin-top: 1rem; }
+[mr] { margin-right: 1rem; }
+[mb] { margin-bottom: 1rem; }
+[ml] { margin-left: 1rem; }
+
+[mn] { margin: 0; }
+
+[mtn] { margin-top: 0; }
+[mrn] { margin-right: 0; }
+[mbn] { margin-bottom: 0; }
+[mln] { margin-left: 0; }
+
+[ma] { margin: auto; }
+
+[mta] { margin-top: auto; }
+[mra] { margin-right: auto; }
+[mba] { margin-bottom: auto; }
+[mla] { margin-left: auto; }
+
+/*
+-- Padding
+*/
+
+[p] { padding: 1rem; }
+
+[pt] { padding-top: 1rem; }
+[pr] { padding-right: 1rem; }
+[pb] { padding-bottom: 1rem; }
+[pl] { padding-left: 1rem; }
+
+[pn] { padding: 0; }
+
+[ptn] { padding-top: 0; }
+[prn] { padding-right: 0; }
+[pbn] { padding-bottom: 0; }
+[pln] { padding-left: 0; }
+
+/*
+-- Border
+*/
+
+[b] { border: 1px solid #000; }
+
+[bt] { border-top: 1px solid #000; }
+[br] { border-right: 1px solid #000; }
+[bb] { border-bottom: 1px solid #000; }
+[bl] { border-left: 1px solid #000; }
+
+[bn] { border: 0; }
+
+[btn] { border-top: 0; }
+[brn] { border-right: 0; }
+[bbn] { border-bottom: 0; }
+[bln] { border-left: 0; }
