@@ -24,7 +24,7 @@
 [fsn]  { flex-shrink: 0; }
 
 /*
--- Single Line Alignment
+-- Single Axis Alignment
 */
 
 [ais]  { align-items: stretch; }
@@ -34,7 +34,7 @@
 [aib]  { align-items: baseline; }
 
 /*
--- Multi Line Alignment
+-- Multi Axis Alignment
 */
 
 [acsb] { align-content: space-between; }
@@ -44,7 +44,7 @@
 [acsa] { align-content: space-around; }
 
 /*
--- Individual Item Alignment
+-- Item Alignment
 */
 
 [ass]  { align-self: stretch; }
@@ -62,6 +62,14 @@
 [jcc]  { justify-content: center; }
 [jcfe] { justify-content: flex-end; }
 [jcsa] { justify-content: space-around; }
+
+/*
+-- Text Alignment
+*/
+
+[tal] { text-align: left; }
+[tac] { text-align: center; }
+[tar] { text-align: right; }
 
 /*
 -- Margins
