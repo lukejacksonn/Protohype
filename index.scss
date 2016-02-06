@@ -131,3 +131,13 @@
 [brn] { border-right: 0; }
 [bbn] { border-bottom: 0; }
 [bln] { border-left: 0; }
+
+/*
+-- Position
+*/
+
+[abs] { position: absolute; }
+[fix] { position: fixed; }
+[rel] { position: relative; }
+
+[trbl] { top: 0; right: 0; bottom: 0; left: 0; }
