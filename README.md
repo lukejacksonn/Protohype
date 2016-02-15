@@ -81,7 +81,7 @@ li:last-child {
 There are some pros and cons of using this library in both modes (or not at all). I am not usually a fan of the *just shorten all the variable names* approach to making code cleaner because often there is a tradeoff for readability and maintainability. The thing is I got so tired of typing flex properties (as they are all so damn long and you often require more then one or two).. in the same way as I quickly got tired of writing `git push origin head`. I figured ZSH ships with a set of alias' for git, why not create some shorthand for flex and other CSS properties I end up writing hundered of times a day.<br><br>
 So far I have found it useful and not ran into any massive issues. The biggest being when people first look at it and say _wtf is that_ to which I point them at this repo and the definiton of an *abbreviation*. Once you start writing like this it is hard to stop.
 
-# Further Expreiments
+# Further Experiments
 I would like to run some tests to see how using `@extend [],[]...` has an effect on compiled stylesheet size. My guess would be that as long as the average selector length is less than the average property/value length then there might actually be gains to be made. For example:<br><br>
 
 ```
